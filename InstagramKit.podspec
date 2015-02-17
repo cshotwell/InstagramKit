@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/shyambhat/InstagramKit.git", :tag => '3.5.0' }
   s.source_files  = 'InstagramKit', 'InstagramKit/**/*.{h,m}'
-  s.resource      = 'InstagramKit/InstagramKit.plist'
-  s.exclude_files = 'InstagramKitDemo'
+  s.exclude_files = 'InstagramKitDemo',
+                    'InstagramKit/InstragramKit.plist'
   s.requires_arc = true
   s.dependency 'AFNetworking', '~>2.0'
 
