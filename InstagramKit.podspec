@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
                     'InstagramKit/InstragramKit.plist'
   s.requires_arc = true
   s.dependency 'AFNetworking', '~>2.0'
+  s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
 
 end
